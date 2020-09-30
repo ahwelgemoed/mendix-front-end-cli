@@ -1,0 +1,16 @@
+{
+  "apps": [{
+    "id": "atlas_reference_app",
+    "name": "Atlas Reference",
+    "description": "Showcases the Atlas design",
+    "runtimeUrl": "https://webuiv4-accp.mendixcloud.com",
+    "backgroundImageName": "atlas_app"
+  },
+  {
+    "id": "banking_app",
+    "name": "Native Banking App",
+    "description": "Showcases a Banking App created with Mendix",
+    "runtimeUrl": "https://personalbanking.mendixcloud.com",
+    "backgroundImageName": "banking_app"
+  }]
+}

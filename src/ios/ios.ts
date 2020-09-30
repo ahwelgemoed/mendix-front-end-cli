@@ -8,7 +8,7 @@ export const openLastUsedDevice = async ({ spinner }) => {
     const stdout = await spawnAsync("open", ["-a", "simulator"]);
     return stdout;
   } catch (error) {
-    spinner.fail("Something Went Wrong");
+    spinner.fail("Something Went Wrong Opening Device");
     throw new Error(error);
   }
 };

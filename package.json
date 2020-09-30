@@ -15,7 +15,6 @@
   ],
   "scripts": {
     "predev": "rimraf dist",
-    "postinstall": "tsc && npm run copy-assets",
     "start": "node dist/app.js",
     "dev": "tsc && npm run copy-assets && node dist/app.js",
     "copy-assets": "cp -rv src/apks dist/apks/",
@@ -28,10 +27,14 @@
   },
   "dependencies": {
     "@expo/spawn-async": "^1.5.0",
+    "@types/chalk": "^2.2.0",
     "@types/node": "^14.11.2",
     "@types/ora": "^3.2.0",
     "@types/yargs": "^15.0.7",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
     "dotenv-stringify": "^2.0.3",
+    "figlet": "^1.5.0",
     "inquirer": "^7.3.3",
     "ora": "^5.1.0",
     "rimraf": "^3.0.2",

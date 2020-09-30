@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+import chalk from "chalk";
+import clear from "clear";
+import figlet from "figlet";
 import inquirer from "inquirer";
 import os from "os";
 import * as yargs from "yargs";
@@ -24,6 +27,12 @@ import { mainIosProcess } from "./ios/main";
 // Very Anonymous Function Invoking itself
 
 (async () => {
+  clear();
+  console.log(
+    chalk.blueBright(
+      figlet.textSync("Mendix-FE-CLI", { horizontalLayout: "full" })
+    )
+  );
   if (!argv._[0]) {
     const options = {
       ENV: () => mainEnvProcess(),
