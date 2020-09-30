@@ -3,7 +3,7 @@ import chalk from "chalk";
 import clear from "clear";
 import figlet from "figlet";
 import inquirer from "inquirer";
-import os from "os";
+// import os from "os";
 import * as yargs from "yargs";
 
 interface IArguments {
@@ -16,7 +16,7 @@ const argv: IArguments = yargs.options({
   ios: { type: "string" },
 }).argv;
 
-const USER_PLATFORM = os.platform();
+// const USER_PLATFORM = os.platform();
 
 // Android
 import { mainAndroidProcess } from "./android/main";

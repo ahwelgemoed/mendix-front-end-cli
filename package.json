@@ -1,6 +1,6 @@
 {
   "name": "mendix-front-end-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A CLI for FE TEAM",
   "main": "./dist/app.js",
   "typings": "./dist/app.d.ts",
