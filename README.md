@@ -86,7 +86,9 @@ We try to make it as easy as possible this does require that you setup your dev 
 
 ## TO_DO
 
-🔘 Test on Windows
+🔘 Test on Mac
+
+⚪️ Test on Windows
 
 ⚪️ Remote Download app and apk - (ATM its in the project file)
 
