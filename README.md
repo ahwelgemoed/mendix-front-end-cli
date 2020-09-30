@@ -7,13 +7,13 @@ This is made to try and simplify Project Setup for Mac Users running Mendix Stud
 ### Install / Usage
 
 ```bash
-npm i PACKAGE_NAME -g
+npm i mendix-front-end-cli -g
 ```
 
 OR
 
 ```bash
-npx PACKAGE_NAME
+npx mendix-front-end-cli
 ```
 
 ### It can
